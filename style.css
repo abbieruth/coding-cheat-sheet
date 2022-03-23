@@ -1,0 +1,47 @@
+* {
+    background-color: black;
+    color: lime;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    display: table;
+    border: 2px solid lime;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+td {
+    font-family: sans-serif;
+    border: 1px solid lime;
+    padding: 5px;
+}
+
+.tag {
+    font-family: monospace;
+    background-color: grey;
+}
+
+.value {
+    font-family: monospace;
+    background-color: grey;
+}
+
+.property {
+    font-family: monospace;
+    background-color: grey;
+}
+
+footer {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+}

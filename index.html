@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Coding Cheat Sheet</title>
+</head>
+<body>
+    <h1>My Coding Cheat Sheet</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Tag</td>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;html&gt;</td>
+                <td>html</td>
+                <td>Tells the computer to expect an HTML document</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;head&gt;</td>
+                <td>head</td>
+                <td>Contains all metadata</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;title&gt;</td>
+                <td>title</td>
+                <td>This is what will show in the tab</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;link&gt;</td>
+                <td>link</td>
+                <td>Links CSS stylesheets, JavaScript, etc., to your basic page</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;body&gt;</td>
+                <td>body</td>
+                <td>This will contain the body of your page</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;header&gt;</td>
+                <td>header</td>
+                <td>Usually holds logo, navbar, title, maybe introduction or key facts</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;nav&gt;</td>
+                <td>navigation</td>
+                <td>Contains links for navigating the website</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;h1&gt;</td>
+                <td>h1</td>
+                <td>Largest heading (headings go through h6, the smallest heading</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;p&gt;</td>
+                <td>paragraph</td>
+                <td>Normal sized writing for average content</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;em&gt;</td>
+                <td>emphasis</td>
+                <td>Italicizes the word(s) it's wrapped around</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;strong&gt;</td>
+                <td>strong</td>
+                <td>Prints word(s) it's wrapped around in bold font</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;div&gt;</td>
+                <td>division</td>
+                <td>Used for separating portions of the page</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;section&gt;</td>
+                <td>section</td>
+                <td>Also for separating parts of the page, maybe parts of an article?</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;article&gt;</td>
+                <td>article</td>
+                <td>For sections of print, images, etc. that go together (like an article)</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;aside&gt;</td>
+                <td>aside</td>
+                <td>For information not relevant to main body of information; sometimes used for sidenav</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Common HTML attributes</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Attribute</td>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">class</td>
+                <td>class</td>
+                <td>Used for styling with CSS; can be used on multiple elements</td>
+            </tr>
+            <tr>
+                <td class="tag">id</td>
+                <td>identification</td>
+                <td>Used for more specific styling; should only be used once per page</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>CSS</h1>
+
+    <h2>FlexBox</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Attribute</td>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="value">display: flex;</td>
+                <td>flex (value, not property)</td>
+                <td>Sets an element to be a block-level flex container (on it's own line)</td>
+            </tr>
+            <tr>
+                <td class="value">display: inline-flex</td>
+                <td>inline-flex</td>
+                <td>Sets an element to be an inline flex container (containers can sit next to each other)</td>
+            </tr>
+            <tr>
+                <td class="property">justify-content: </td>
+                <td>justify-content</td>
+                <td>Positions flex items from left to right; main axis</td>
+            </tr>
+            <tr>
+                <td class="value">justify-content: flex-start</td>
+                <td>flex-start</td>
+                <td>Positioned in order, left to right, no extra space</td>
+            </tr>
+            <tr>
+                <td class="value">justify-content: flex-end</td>
+                <td>flex-end</td>
+                <td>Positioned in order, pushed to far right, no extra space</td>
+            </tr>
+            <tr>
+                <td class="value">justify-content: center</td>
+                <td>center</td>
+                <td>Positioned in order, aligned center, no extra space</td>
+            </tr>
+            <tr>
+                <td class="value">justify-content: space-around</td>
+                <td>space-around</td>
+                <td>Equal space before and after each item, making double space between</td>
+            </tr>
+            <tr>
+                <td class="value">justify-content: space-between</td>
+                <td>space-between</td>
+                <td>Equal space between each element, but none at start or end (excepting margins, etc.)</td>
+            </tr>
+            <tr>
+                <td class="property">align-items: </td>
+                <td>align-items</td>
+                <td>Positions flex items vertically; cross axis</td>
+            </tr>
+            <tr>
+                <td class="value">align-items: flex-start;</td>
+                <td>flex-start</td>
+                <td>Positions all elements at the top of the parent container</td>
+            </tr>
+            <tr>
+                <td class="value">align-items: flex-end;</td>
+                <td>flex-end</td>
+                <td>Positions all elements at the bottom of the parent container</td>
+            </tr>
+            <tr>
+                <td class="value">align-items: center;</td>
+                <td>center</td>
+                <td>Centers all elements vertically</td>
+            </tr>
+            <tr>
+                <td class="value">align-items: baseline;</td>
+                <td>baseline</td>
+                <td>The bottom of the content of all elements will be aligned with each other</td>
+            </tr>
+            <tr>
+                <td class="value">align-items: stretch;</td>
+                <td>stretch</td>
+                <td>Elements will stretch from top to bottom of the container (unless a height is specified)</td>
+            </tr>
+            <tr>
+                <td class="property">flex-grow: </td>
+                <td>flex-grow</td>
+                <td>Specifies which items grow to fill the container and at what proportions; default value = 0
+                    (2 takes twice as much space as 1; elements will not grow past the max-width, if set); main axis</td>
+            </tr>
+            <tr>
+               <td class="property">flex-shrink:</td>
+                <td>flex-shrink</td>
+                <td>Specifies which elements shrink and in what proportions (default value = 1)
+                    min- and max-width take precedent; margins unaffected, same as flex-grow; main axis
+                </td>
+            </tr>
+            <tr>
+                <td class="property">flex-basis: </td>
+                <td>flex-basis</td>
+                <td>Lets you specify the width of a flex item before it grows or shrinks</td>
+            </tr>
+            <tr>
+                <td class="property">flex: </td>
+                <td>flex (property, not value)</td>
+                <td>Shorthand for declaring flex-grow, flex-shrink, and flex-basis (in that order) in one line
+                    Note: You can drop flex-basis or flex-shrink, but you can't set flex-shrink and flex-basis using 2 values
+                </td>
+            </tr>
+            <tr>
+                <td class="property">flex-wrap: </td>
+                <td>flex-wrap</td>
+                <td>Moves flex items to the next line; main axis</td>
+            </tr>
+            <tr>
+                <td class="value">flex-wrap: wrap;</td>
+                <td>wrap</td>
+                <td>Flex items that don't fit on a row move down to the next line</td>
+            </tr>
+            <tr>
+                <td class="value">flex-wrap: wrap-reverse;</td>
+                <td>wrap-reverse</td>
+                <td>Same as wrap but the order of rows is reversed</td>
+            </tr>
+            <tr>
+                <td class="value">flex-wrap: nowrap;</td>
+                <td>nowrap</td>
+                <td>Prevents items from wrapping; default value. Only necessary to override a wrap value in a different CSS rule</td>
+            </tr>
+            <tr>
+                <td class="property">align-content: </td>
+                <td>align-content</td>
+                <td>Aligns multiple rows of content in a flex container from top to bottom.
+                     Uses same values as align-items; cross axis</td>
+            </tr>
+            <tr>
+                <td class="property">flex-direction: </td>
+                <td>flex-direction</td>
+                <td>Used to switch the main and cross axes</td>
+            </tr>
+            <tr>
+                <td class="value">flex-direction: row;</td>
+                <td>row</td>
+                <td>Positions flex items from left to right, start from the default top left corner</td>
+            </tr>
+            <tr>
+                <td class="value">flex-direction: row-reverse;</td>
+                <td>Positions flex items right to left starting from the top right corner</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="value">flex-direction: column;</td>
+                <td>column</td>
+                <td>Positions flex items from top to bottom of the container starting from the top left corner</td>
+            </tr>
+            <tr>
+                <td class="value">flex-direction: column-reverse;</td>
+                <td>column-reverse</td>
+                <td>Positions flex items from bottom to top of the container starting from the bottom left corner</td>
+            </tr>
+            <tr>
+                <td class="property">flex-flow: </td>
+                <td>flex-flow</td>
+                <td>Shorthand used to declare flex-direction and flex-wrap properties in one line (in that order)</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <p>I'll add more soon.  Thanks for checking it out!</p>
+    </footer>
+</body>
+</html>
