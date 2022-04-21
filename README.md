@@ -1,7 +1,6 @@
 # Coding Cheat Sheet
 
-This is just a simple coding cheat sheet I built for myself.  I might tweak the design later.  I would like to add to the CSS table and maybe even add a 
-JavaScript table later on.
+This is just a simple coding cheat sheet I built for myself in a school project from Codecademy.  I might tweak the design later.  I would like to add to the CSS table and maybe even add a JavaScript table and a git table later on.
 
 ![cheatsheet](https://user-images.githubusercontent.com/72089733/164484654-ed6f0aee-384d-4c56-8e89-2c717699a23e.png)
 
